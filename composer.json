@@ -1,0 +1,25 @@
+{
+    "name": "nkeenan38/phpingdom",
+    "type": "library",
+    "description": "A PHP library for the Pingdom API",
+    "keywords": ["api", "pingdom"],
+    "homepage": "https://github.com/nkeenan38/phpingdom",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Nick Keenan",
+            "email": "nkeenan38@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "7.1.23",
+        "phpunit/phpunit": "6.*",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Pingdom": "src",
+            "Pingdom\\Tests": "tests"
+        }
+    }
+}
