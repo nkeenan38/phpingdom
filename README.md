@@ -28,7 +28,7 @@ You will need a Pingdom application key for authorizatioon. Follow their documen
 
 $token    = ''; // Pingdom application key (32 characters)
 
-$pingdom = new \Pingdom\Client($username, $password, $token);
+$pingdom = new \Pingdom\Client($token);
 
 // List of probe servers
 $probes = $pingdom->getProbes();
