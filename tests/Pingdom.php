@@ -2,9 +2,6 @@
 
 use PHPUnit\Framework\TestCase;
 
-require __DIR__ . "/../src/Client.php";
-require __DIR__ . "/../src/Server.php";
-
 class PingdomTest extends TestCase
 {
 	private $token;

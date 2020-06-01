@@ -17,9 +17,9 @@
         "guzzlehttp/guzzle": "~6.0"
     },
     "autoload": {
-        "psr-0": {
-            "Pingdom": "src",
-            "Pingdom\\Tests": "tests"
+        "psr-4": {
+            "Pingdom\\": "src/",
+            "Pingdom\\Tests\\": "tests/"
         }
     }
 }
